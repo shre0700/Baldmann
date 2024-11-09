@@ -1,0 +1,93 @@
+.featured-main {
+    width: 100%;
+    height: 550px;
+}
+
+.featured-title {
+    width: 100%;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.f-title {
+    width: 50%;
+    font-size: 3rem;
+    letter-spacing: .75rem;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typewriter 4s linear infinite;
+    border-right: 5px solid #FFD700;
+    margin: auto;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 40%;
+    }
+}
+
+.featured-blogs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.featured-blog-card {
+    width: 320px;
+    /* border: 1px solid #FFD700; */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.featured-blog-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.fb-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.fb-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 15px 10px;
+    color: #333;
+    height:110px;
+}
+
+.fb-author {
+    font-size: 1rem;
+    color: #fff;
+    background-color: #FFD700;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.fb-read {
+    border: none;
+    color: #EACBED;
+    background-color: transparent;
+    margin-top: auto;
+    margin-bottom: 15px;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+.fb-read:hover {
+    color: #FFD700;
+    font-size: 1.1rem;
+}
