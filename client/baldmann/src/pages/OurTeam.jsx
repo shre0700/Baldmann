@@ -24,6 +24,8 @@ import Anisha from './Anisha.jpg';
 import nain from './nain.jpg';
 import sree from './sree.jpg';
 import pfp from './prof.png';
+import sathish from './sathish.jpg';
+import simrat from './simrat.jpg';
 
 const OurTeam = () => {
   return (
@@ -111,13 +113,6 @@ const OurTeam = () => {
             size="small"
           />
           <Cards
-            imageSrc={Kaarthik}
-            name="Kaarthik M"
-            position="ML Specialist"
-            linkedin="https://www.linkedin.com/in/kaarthik-m-47198728a/"
-            size="small"
-          />
-          <Cards
             imageSrc={Harshith}
             name="Harshith B"
             position="App Developer"
@@ -176,7 +171,7 @@ const OurTeam = () => {
           />
          
          <Cards
-            imageSrc={pfp}
+            imageSrc={sathish}
             name="Sathish Sarathy"
             position="VLSI Specialist"
             linkedin="https://www.linkedin.com/in/sathish-sarathy-06357a275/"
@@ -184,7 +179,7 @@ const OurTeam = () => {
           />
 
           <Cards
-            imageSrc={pfp}
+            imageSrc={simrat}
             name="Simrat Kaur"
             position="Neuroscientist"
             linkedin="#"

@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="footer-about">
                     <h4>About Us</h4>
                     <p>Pioneering a future where the mind meets technology. We’re on a mission to bridge the gap between the human brain and the digital world.</p>
-                    <a href="/about">Learn More</a>
+                    {/* <a href="/about">Learn More</a> */}
                 </div>
                 
                 <div className="footer-links">

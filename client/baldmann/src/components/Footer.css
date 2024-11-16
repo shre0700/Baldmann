@@ -1,9 +1,8 @@
 .footer {
     background-color: #000;  
-    /* color: #fff;   */
     padding: 40px 20px;
     font-family: Arial, sans-serif;
-    margin-top: 100px;
+    
 }
 
 .footer-container {
@@ -22,18 +21,18 @@
 
 .footer-about h4, .footer-links h4, .footer-contact h4 {
     font-size: 1.2rem;
-    color: #fff; /* Gold color for headings */
+    color: #fff; 
     margin-bottom: 10px;
 }
 
 .footer-about p, .footer-links ul, .footer-contact p {
     font-size: 0.9rem;
-    color: #999; /* Light grey for paragraph text */
+    color: #999; 
     line-height: 1.5;
 }
 
 .footer-about a, .footer-links a, .footer-contact a {
-    color: #999; /* Gold color for links */
+    color: #999; 
     text-decoration: none;
 }
 
@@ -53,21 +52,21 @@
 }
 
 .footer-contact .footer-social a {
-    color: #FFD700; /* Gold color for social icons */
+    color: #FFD700; 
     font-size: 1.5rem;
     margin-right: 15px;
     transition: color 0.3s ease;
 }
 
 .footer-contact .footer-social a:hover {
-    color: #fff; /* White color on hover for social icons */
+    color: #fff; 
 }
 
 .footer-bottom {
     text-align: center;
     margin-top: 20px;
     font-size: 0.8rem;
-    color: #999; /* Light grey for bottom text */
+    color: #999; 
 }
 
 .footer-bottom p {
@@ -76,3 +75,4 @@
 .connect-linkedIn{
     font-size: 1rem !important;
 }
+
