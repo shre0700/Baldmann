@@ -11,7 +11,7 @@ const app = express();
 // Middleware
 app.use(cors(
   {
-    origin:["https://baldmann-lv4v.vercel.app"],
+    origin:["https://baldmann-lv4v-shreya-agarwals-projects.vercel.app"],
     methods:["POST","GET"],
     credentials:true
   }
