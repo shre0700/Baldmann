@@ -9,9 +9,18 @@ import bodyParser from 'body-parser';
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors(
+  {
+    origin:["https://baldmann-lv4v.vercel.app"],
+    methods:["POST","GET"],
+    credentials:true
+  }
+));
 app.use(bodyParser.json());
 
+app.use("/",(req,res) => {
+  res.json("Server Running");
+})
 // MongoDB connection
 mongoose.connect('mongodb+srv://shreyaagarwal2022:shreya2022@cluster0.ntpxd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Connected to MongoDB'))
