@@ -12,7 +12,7 @@ const app = express();
 app.use(cors(
   {
     origin:["https://baldmann-lv4v-shreya-agarwals-projects.vercel.app"],
-    methods:["POST","GET"],
+    methods:["POST","GET","OPTIONS"],
     credentials:true
   }
 ));
