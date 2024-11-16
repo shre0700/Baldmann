@@ -34,7 +34,7 @@ const ContactUs = () => {
     }
 
     try {
-      const response = await fetch('https://baldmann.vercel.app/?vercelToolbarCode=F0x2JMev6eHIeUS/api/contact', {
+      const response = await fetch('https://baldmann.vercel.app/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
