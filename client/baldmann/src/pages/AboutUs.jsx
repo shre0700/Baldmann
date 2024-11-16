@@ -2,7 +2,7 @@ import React from "react";
 import './AboutUs.css';
 import { TbTargetArrow } from "react-icons/tb";
 import { FaRegEye } from "react-icons/fa";
-import { GiDiamondHard } from "react-icons/gi";
+import { IoDiamondOutline } from "react-icons/io5";
 
 const AboutUs = () => {
     return (
@@ -35,7 +35,7 @@ const AboutUs = () => {
             <div className="flip-card">
                 <div className="flip-card-inner">
                     <div className="flip-card-front">
-                        <GiDiamondHard size={40} />
+                        <IoDiamondOutline size ={40}/>
                         <p className="card-title">Our Values</p>
                     </div>
                     <div className="flip-card-back">
