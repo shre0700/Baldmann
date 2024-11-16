@@ -1,54 +1,4 @@
-// // src/components/ContactUs.jsx
-// import React from 'react';
-// import './ContactUs.css';
-// import Lottie from "lottie-react";
-// import animation from './message.json';
-// const ContactUs = () => {
-//   return (
-//     <div className="contact-container">
-//       <div className="connect-section">
-//         <h2>Connect <br></br>with us</h2>
-//         {/* <img src={BrainImage} alt="Brain Logo" className="brain-image" /> */}
-//         <Lottie animationData={animation} className='message-animation'/>
-//       </div>
 
-//       <div className="form-section">
-//         <form className="contact-form">
-//           <div className="form-row">
-//             <div className="form-group">
-//               <label htmlFor="firstName">FirstName</label>
-//               <input type="text" id="firstName" placeholder="Enter first name" required />
-//             </div>
-//             <div className="form-group">
-//               <label htmlFor="lastName">LastName</label>
-//               <input type="text" id="lastName" placeholder="Enter last name" required />
-//             </div>
-//           </div>
-
-//           <div className="form-group">
-//             <label htmlFor="email">Email</label>
-//             <input type="email" id="email" placeholder="Enter your email" required />
-//           </div>
-
-//           <div className="form-group">
-//             <label htmlFor="phone">Phone</label>
-//             <input type="tel" id="phone" placeholder="Enter your phone number" required />
-//           </div>
-
-//           <div className="form-group">
-//             <label htmlFor="message">Message</label>
-//             <textarea id="message" rows="4" placeholder="Enter your message" required></textarea>
-//           </div>
-
-//           <button type="submit">Send Message</button>
-//         </form>
-//       </div>
-      
-//     </div>
-//   );
-// };
-
-// export default ContactUs;
 
 // src/components/ContactUs.jsx
 import React, { useState } from 'react';
@@ -84,7 +34,7 @@ const ContactUs = () => {
     }
 
     try {
-      const response = await fetch('http://localhost:5000/api/contact', {
+      const response = await fetch('https://baldmann.vercel.app/?vercelToolbarCode=F0x2JMev6eHIeUS/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
