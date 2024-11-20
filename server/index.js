@@ -5,6 +5,7 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import bodyParser from 'body-parser';
 
+
 // Initialize Express app
 const app = express();
 
@@ -37,13 +38,6 @@ const contactSchema = new mongoose.Schema({
 
 const Contact = mongoose.model('Contact', contactSchema);
 
-
-
-
-
-  
-  
-// POST route to save contact data
 app.post('/api/contact', async (req, res) => {
   const { firstName, lastName, email, phone, message } = req.body;
 
@@ -58,10 +52,6 @@ app.post('/api/contact', async (req, res) => {
 });
 
 
-
-  
-
-// Start server
 app.listen(5000, () => {
   console.log('Server running on http://localhost:5000');
 });
