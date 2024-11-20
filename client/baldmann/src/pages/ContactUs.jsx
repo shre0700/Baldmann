@@ -34,7 +34,7 @@ const ContactUs = () => {
     }
 
     try {
-      const response = await fetch('https://baldmann.vercel.app/?vercelToolbarCode=F0x2JMev6eHIeUS/api/contact', {
+      const response = await fetch('https://baldmann.vercel.app/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -57,7 +57,7 @@ const ContactUs = () => {
       }
     } catch (error) {
       console.error('Error:', error);
-      setStatus('An error occurred while sending the message.');
+      setStatus('An error occurred while sending the message.Please mail us your queries!');
     }
   };
 

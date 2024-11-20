@@ -8,7 +8,6 @@ import coo from './coo.jpg';
 import cto from './cto.jpg';
 
 import Ishaan from './ishaan.jpg';
-import Kaarthik from './karthik.jpg';
 import Dhiyanesh from './Dhiyanesh.jpg';
 import Harshith from './harshith.jpg';
 import Pritha from './Pritha.jpg';
@@ -23,7 +22,6 @@ import Joshua from './Joshua.jpg';
 import Anisha from './Anisha.jpg';
 import nain from './nain.jpg';
 import sree from './sree.jpg';
-import pfp from './prof.png';
 import sathish from './sathish.jpg';
 import simrat from './simrat.jpg';
 
@@ -35,7 +33,6 @@ const OurTeam = () => {
       </div>
 
       <div className="our-team-office">
-        {/* <p className='the-office-title'>The Office</p> */}
         <div className="office-ceo">
           <Cards
             imageSrc={ceo}
@@ -150,7 +147,7 @@ const OurTeam = () => {
           />
           <Cards
             imageSrc={Sanjana}
-            name="Sanjana Sudersan"
+            name="Sanjana Sudarsan"
             position="Robotics Engineer"
             linkedin="https://www.linkedin.com/in/sanjana-sudarsan-5963ab31a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             size="small"
@@ -182,7 +179,6 @@ const OurTeam = () => {
             imageSrc={simrat}
             name="Simrat Kaur"
             position="Neuroscientist"
-            linkedin="#"
             size="small"
           />
 
@@ -190,7 +186,6 @@ const OurTeam = () => {
             imageSrc={sree}
             name="Sreelekshmi T U"
             position="Neuroscientist"
-            linkedin="#"
             size="small"
           />
 
@@ -198,7 +193,7 @@ const OurTeam = () => {
             imageSrc={nain}
             name="Nainika Anish"
             position="Drone Engineering"
-            linkedin="#"
+            linkedin="https://www.linkedin.com/in/nainika-anish-74001b27a/"
             size="small"
           />
         </div>
