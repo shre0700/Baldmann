@@ -1,41 +1,88 @@
-/* .industry-main{
-    height:100vh; 
-    /* background-color: #ffd750; */
-
-.about-bci{
-    width:100%;
-    text-align: center;
-    background: url('./industry-background-final.png');
-    background-size: auto;
+/* Base styling */
+.industry-main {
+    padding: 20px;
     background-color: #FFD700;
-    
 }
-.about-bci-title{
+
+.about-bci {
+    width: 100%;
+    text-align: center;
+    background: url('./industry-background-final.png') no-repeat center center;
+    background-size: cover;
+    color: #FFF;
+}
+
+.about-bci-title {
     padding-top: 50px;
-    color:#FFF;
     font-size: 3rem;
     background-color: #FFD700;
-    width:80%;
+    width: 80%;
     margin: auto;
+    transition: color 0.3s ease;
 }
-.about-bci-title:hover{
-    color:#000;
-    transition: 1s;
+
+.about-bci-title:hover {
+    color: #000;
 }
-.about-bci-text{
-    width:90%;
+
+.about-bci-text {
+    width: 90%;
     margin: 30px auto;
-    text-align:center;
-    line-height: 1.5;
-    background-color:#FFD700;
-    opacity: 0.7;
-    padding-bottom: 40px; 
-    font-size: 1.5rem;  
+    text-align: center;
+    line-height: 1.6;
+    background-color: #FFD700;
+    opacity: 0.85;
+    padding: 20px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    transition: opacity 0.3s ease, font-size 0.3s ease;
 }
-.about-bci-text:hover{
-    font-size: 1.5rem;
-    color:#000;
+
+.about-bci-text:hover {
+    color: #000;
     opacity: 1;
 }
 
+/* Responsive styling */
+@media (max-width: 1200px) {
+    .about-bci-title {
+        font-size: 2.5rem;
+    }
 
+    .about-bci-text {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .about-bci-title {
+        font-size: 2.2rem;
+    }
+
+    .about-bci-text {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-bci-title {
+        font-size: 1.8rem;
+        padding-top: 30px;
+    }
+
+    .about-bci-text {
+        font-size: 0.95rem;
+        padding: 15px;
+        width: 95%;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-bci-title {
+        font-size: 1.5rem;
+    }
+
+    .about-bci-text {
+        font-size: 0.9rem;
+    }
+}

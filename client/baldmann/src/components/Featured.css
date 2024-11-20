@@ -1,7 +1,6 @@
-/* Retain original heading styling */
-
-.featured-main{
-    width:100%;
+/* Base styling for larger screens */
+.featured-main {
+    width: 100%;
     margin: 50px 0;
 }
 .featured-title {
@@ -62,7 +61,8 @@
     font-size: 1.4rem;
     font-weight: bold;
     color: #333;
-    margin: 10px 0;
+    margin: 0 0 10px 0;
+    height:100px;
 }
 
 .fb-author {
@@ -70,6 +70,7 @@
     color: #FFD700;
     font-style: italic;
     margin-bottom: 15px;
+    height:20px;
 }
 
 .fb-read {
@@ -94,8 +95,68 @@
     margin-top: auto;
 }
 
+/* Responsive styling */
+@media (max-width: 998px) {
+    .f-title {
+        font-size: 2.5rem;
+        letter-spacing: 0.5rem;
+    }
+    .fb-title {
+        font-size: 1.2rem;
+    }
+    .fb-author {
+        font-size: 0.8rem;
+    }
+    .fb-read {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
+
 @media (max-width: 768px) {
     .featured-blogs {
         grid-template-columns: 1fr;
+    }
+    .f-title {
+        font-size: 2rem;
+        letter-spacing: 0.3rem;
+        border-right: 2px solid #FFD700;
+    }
+    .fb-title {
+        font-size: 1.1rem;
+    }
+    .fb-author {
+        font-size: 0.75rem;
+    }
+    .fb-read {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 520px) {
+    .featured-main {
+        margin: 30px 0;
+    }
+    .f-title {
+        font-size: 1.8rem;
+        letter-spacing: 0.2rem;
+        border-right: 1px solid #FFD700;
+    }
+    .fb-image {
+        height: 150px;
+    }
+    .fb-content {
+        padding: 15px;
+    }
+    .fb-title {
+        font-size: 1rem;
+    }
+    .fb-author {
+        font-size: 0.7rem;
+    }
+    .fb-read {
+        padding: 6px 14px;
+        font-size: 0.8rem;
     }
 }

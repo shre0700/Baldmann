@@ -1,4 +1,4 @@
-// src/components/CardComponent.jsx
+
 import React from 'react';
 import { FaLinkedin } from 'react-icons/fa';
 import './Cards.css';
