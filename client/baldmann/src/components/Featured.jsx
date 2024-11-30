@@ -4,6 +4,8 @@ import esp from './esp.jpg';
 import nlp from './karthik.jpg';
 import arduino from './arduino.jpg';
 import ml from './ml.png';
+import p1a from '../pages/Picture1.png';
+import sa2 from '../pages/s_a2.jpg';
 import { Link } from 'react-router-dom';
 
 const Featured = () => {
@@ -15,10 +17,30 @@ const Featured = () => {
                 </div>
                 <div className="featured-blogs">
                     <div className="featured-blog-card">
+                        <img src={sa2} alt="Blog Cover" className="fb-image" />
+                        <div className="fb-content">
+                            <p className="fb-title">The Future of Human-Computer Interaction</p>
+                            <p className="fb-author">by Sanjana Sudarsan</p>
+                            <Link to="/blog/6" className="fb-read-link">
+                                <button className="fb-read">Read More</button>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className="featured-blog-card">
+                        <img src={p1a} alt="Blog Cover" className="fb-image" />
+                        <div className="fb-content">
+                            <p className="fb-title">The Future of Romance: Could a BCI...</p>
+                            <p className="fb-author">by Simrat Kaur</p>
+                            <Link to="/blog/5" className="fb-read-link">
+                                <button className="fb-read">Read More</button>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className="featured-blog-card">
                         <img src={nlp} alt="Blog Cover" className="fb-image" />
                         <div className="fb-content">
                             <p className="fb-title">Who should upgrade to ESP32 from Arduino?</p>
-                            <p className="fb-author">by Sanjana Sudersan</p>
+                            <p className="fb-author">by Sanjana Sudarsan</p>
                             <Link to="/blog/1" className="fb-read-link">
                                 <button className="fb-read">Read More</button>
                             </Link>
