@@ -24,6 +24,8 @@ import nain from './nain.jpg';
 import sree from './sree.jpg';
 import sathish from './sathish.jpg';
 import simrat from './simrat.jpg';
+import khushi from './khushi.jpg';
+import aditi from './Aditi.jpg';
 
 const OurTeam = () => {
   return (
@@ -97,6 +99,13 @@ const OurTeam = () => {
             linkedin="https://www.linkedin.com/in/vrisha-parikh-7241b726b/"
             size="med"
           />
+          <Cards
+            imageSrc={Dhiyanesh}
+            name="Dhiyanesh S"
+            position="Head of Signal Acquisition"
+            linkedin="https://www.linkedin.com/in/dhiyanesh-srinivasan/"
+            size="med"
+          />
 
         </div>
         {/* Other Team Members */}
@@ -105,8 +114,20 @@ const OurTeam = () => {
           <Cards
             imageSrc={Ishaan}
             name="Ishaan Mishra"
-            position="Software Developer"
+            position="ML Specialist"
             linkedin="https://www.linkedin.com/in/team-member-1"
+            size="small"
+          />
+          <Cards
+            imageSrc={khushi}
+            name="Khushi Yadav"
+            position="ML Specialist"
+            size="small"
+          />
+          <Cards
+            imageSrc={aditi}
+            name="Aditi Krishnan"
+            position="ML Specialist"
             size="small"
           />
           <Cards
@@ -117,39 +138,10 @@ const OurTeam = () => {
             size="small"
           />
           <Cards
-            imageSrc={Dhiyanesh}
-            name="Dhiyanesh S"
-            position="NeuroScientist"
-            linkedin="https://www.linkedin.com/in/dhiyanesh-srinivasan/"
-            size="small"
-          />
-          
-          <Cards
-            imageSrc={Pritha}
-            name="Pritha Sharma"
-            position="Robotics Engineer"
-            linkedin="https://www.linkedin.com/in/prithasharma?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
-            size="small"
-          />
-          <Cards
-            imageSrc={Teja}
-            name="Tejashwan Gangishetty"
-            position="Robotics Engineer"
-            linkedin="https://www.linkedin.com/in/tejashwan-gangishetty-318b9728a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-            size="small"
-          />
-          <Cards
             imageSrc={Latisha}
             name="Latisha Pinjari"
             position="App Developer"
             linkedin="https://www.linkedin.com/in/latisha-pinjari-79470328b"
-            size="small"
-          />
-          <Cards
-            imageSrc={Sanjana}
-            name="Sanjana Sudarsan"
-            position="Robotics Engineer"
-            linkedin="https://www.linkedin.com/in/sanjana-sudarsan-5963ab31a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             size="small"
           />
           <Cards
@@ -166,15 +158,29 @@ const OurTeam = () => {
             linkedin="https://www.linkedin.com/in/anisha-plawat-19b693259/"
             size="small"
           />
-         
-         <Cards
-            imageSrc={sathish}
-            name="Sathish Sarathy"
-            position="VLSI Specialist"
-            linkedin="https://www.linkedin.com/in/sathish-sarathy-06357a275/"
+          <Cards
+            imageSrc={Pritha}
+            name="Pritha Sharma"
+            position="Robotics Engineer"
+            linkedin="https://www.linkedin.com/in/prithasharma?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
             size="small"
           />
-
+          <Cards
+            imageSrc={Teja}
+            name="Tejashwan Gangishetty"
+            position="Robotics Engineer"
+            linkedin="https://www.linkedin.com/in/tejashwan-gangishetty-318b9728a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+            size="small"
+          />
+          
+          <Cards
+            imageSrc={Sanjana}
+            name="Sanjana Sudarsan"
+            position="Robotics Engineer"
+            linkedin="https://www.linkedin.com/in/sanjana-sudarsan-5963ab31a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            size="small"
+          />
+          
           <Cards
             imageSrc={simrat}
             name="Simrat Kaur"
@@ -188,14 +194,24 @@ const OurTeam = () => {
             position="Neuroscientist"
             size="small"
           />
+         <Cards
+            imageSrc={sathish}
+            name="Sathish Sarathy"
+            position="VLSI Specialist"
+            linkedin="https://www.linkedin.com/in/sathish-sarathy-06357a275/"
+            size="small"
+          />
+
+          
 
           <Cards
             imageSrc={nain}
             name="Nainika Anish"
-            position="Drone Engineering"
+            position="Drone Engineer"
             linkedin="https://www.linkedin.com/in/nainika-anish-74001b27a/"
             size="small"
           />
+          
         </div>
       </div>
     </div>

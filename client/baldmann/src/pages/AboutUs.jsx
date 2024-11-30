@@ -39,7 +39,7 @@ const AboutUs = () => {
                         <p className="card-title">Our Values</p>
                     </div>
                     <div className="flip-card-back">
-                        <p>We value integrity, innovation, teamwork, passion, accountability.</p>
+                        <p>We value integrity, innovation, teamwork, passion and accountability.</p>
                     </div>
                 </div>
             </div>

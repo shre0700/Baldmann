@@ -26,15 +26,15 @@
 }
 
 .card.medium {
-  width: 200px;
+  width: 220px;
 }
 
 .card.med {
-  width: 180px;
+  width: 200px;
 }
 
 .card.small {
-  width: 140px;
+  width: 180px;
 }
 
 /* Image Styling for Each Card Size */
@@ -95,19 +95,19 @@
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .card.large {
-    width: 220px;
+    width: 240px;
   }
 
   .card.medium {
-    width: 180px;
+    width: 210px;
   }
 
   .card.med {
-    width: 150px;
+    width: 1900px;
   }
 
   .card.small {
-    width: 120px;
+    width: 170px;
   }
 
   .card-name {
@@ -145,19 +145,19 @@
 
 @media (max-width: 480px) {
   .card.large {
-    width: 180px;
+    width: 230px;
   }
 
   .card.medium {
-    width: 140px;
+    width: 200px;
   }
 
   .card.med {
-    width: 120px;
+    width: 180px;
   }
 
   .card.small {
-    width: 100px;
+    width: 160px;
   }
 
   .card-name {
