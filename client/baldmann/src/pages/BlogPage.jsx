@@ -13,6 +13,8 @@ import p5b from './p5b.jpg';
 import h1a from './h1.jpg';
 import p1a from './Picture1.png';
 import sa2 from './s_a2.jpg';
+import k1_a from '../assests/k1_a.jpg';
+
 const blogData = {
     1: { title: "Who should upgrade to ESP32 from Arduino?", content:  (
         <>
@@ -409,6 +411,71 @@ const blogData = {
             <p>Human-Computer Interaction is on the brink of an exciting new era. As technology advances, the ways we engage with it will become increasingly seamless, intuitive, and immersive, with technology serving as an extension of our bodies and minds. Through innovations like emotional computing, AI-driven systems, immersive AR/VR environments, and the integration of haptics and multimodal interfaces, HCI will continue to evolve, unlocking new potentials and reshaping our relationship with technology. The future is bright, with boundless possibilities as we move toward a more connected, intelligent, and human-centered digital world.</p>
             </>
         ), author :"Sanjana Sudarsan"
+    },
+    7:{
+        title:"Brainwaves: What Your Brain is Really Doing When You're Not Looking",
+        content:(
+            <>
+            <p>Have you ever sat around daydreaming, working, or (more likely) procrastinating? Well, your brain hasn’t. There's an invisible party always going on within your brain with crazy electrical activity, whether you’re invited or not. These electrical signals are called brainwaves, and they change according to everything you're doing and how you're feeling.</p>
+            <p>To keep track of all this happening, humans make use of a device called EEG (electroencephalogram), which a device consisting of minuscule electrodes implanted on to the top of your head. It's like attaching sensors that measure everything taking place in your brain. But here is where it gets fun, they don't just place them anywhere. It follows a standard system called the 10-20 system of electrode placement. This basically allows researchers to compare results across different studies and people, and it all comes down to where these electrodes go.</p>
+            <h2>The 10-20 System: Cool Brain Map</h2>
+            <p>The 10-20 system sounds much more complex than it is. It's simply a method for EEG electrodes to be placed in a standardized manner on your head. It gets its name from the fact that the electrodes are placed at either a 10% or 20% interval between certain key points on your skull. Those certain key points include the nasion (the spot between your eyes), the inion (the bump at the back of your head), and the preauricular points (in front of your ears).</p>
+            <br></br>
+            <p>The letters attached to the electrodes correspond to different parts of your brain :</p>
+            <p><ul>
+                <li>F for the Frontal lobe (right behind your forehead).</li>
+                <li>C for Central (the top of your head).</li>
+                <li>P for Parietal (the top back of your head).</li>
+                <li>O for Occipital (the back of your head).</li>
+                <li>T for Temporal (the sides of your head).</li>
+                </ul></p>
+                <br></br>
+                <p>This is pretty fascinating, each position corresponds to an area of the brain, so we know exactly what's going on when we track the brainwaves in a particular location, even the numbers play a role. The number of the electrode gives information about the distance from the electrode to the midline of the brain. At the midline, the electrodes are labelled with a ‘z’ to represent zero. The electrode numbers increase as you move away from the midline. Odd numbers represent electrodes on the left side and even numbers represent those on the right. </p>
+                <img src={k1_a} alt="10-20"></img>
+                <h2>Brainwaves: What They Say About You</h2>
+                <p>Now, on to what brainwaves actually mean. These waves are constantly changing, and every kind of brainwave tells us different things about your mental state or activity. In a nutshell:</p>
+                <br></br>
+                <p>
+                    <ol>
+                        <b><li>Delta Waves (0.5–3Hz): </li></b>
+                        <ul>
+                            <li> Originate From: The Frontal and Central regions.</li>
+                            <li>Signify: Delta waves are slow and heavy. These are the brainwaves you're producing when you're in deep sleep, particularly during those stretches when you're not dreaming.</li>
+                        </ul>
+
+                        <b><li>Theta Waves (3–8 Hz): </li></b>
+                        <ul>
+                            <li>Originate from: The Frontal and Temporal lobes.  </li>
+                            <li>Signify: Theta waves are the mellow and relaxed vibes of your brain. They kick in when you are relaxing (meditating, daydreaming, you get the idea). This is the creative, dreamy state where great ideas flow. </li>
+                        </ul>
+
+                        <b><li>Alpha Waves (8–12 Hz):  </li></b>
+                        <ul>
+                            <li>Originate From: The Occipital and Parietal lobes.  </li>
+                            <li>Signify: Alpha waves are typically seen when we’re awake, relaxed, and calm—like when your eyes are closed but you’re still aware of your surroundings. They signify a state of relaxed alertness.</li>
+                        </ul>
+
+                        <b><li>Beta Waves (12–30 Hz):  </li></b>
+                        <ul>
+                            <li>Originate From: The Frontal and Central regions.  </li>
+                            <li>Signify: Beta waves are the fast, sharp brainwaves that show up when you’re focused, thinking hard, or stressed out. These waves come awakened when you’re tackling tasks, problem-solving, or working under pressure. So, if you’re in the final stretch of your semester end exams like I am, these waves are working overtime.</li>
+                        </ul>
+
+                        <b><li>Gamma Waves (30–100 Hz):  </li></b>
+                        <ul>
+                            <li>Originate From: The Frontal and Parietal lobes.</li>
+                            <li>Signify: Gamma waves fire when you're thinking at a high level, solving complex problems, or learning something completely new. These fast waves are associated with mental clarity and moments of deep understanding.</li>
+                        </ul>
+   
+                    </ol>
+                </p>
+                <h2>Conclusion:</h2>
+                <p>Your brain is always bustling, sending waves ranging from sound rest to intense focus. With tools like the 10-20 system, scientists can map this activity in order to deduce conclusions about how we think, feel, and interact with the world.
+                So, the next time you catch yourself daydreaming or having an Eureka moment, remember the unique set of waves your brain is spinning out behind the scenes, each shaping you in ways we may not even realise.</p>
+
+            </>
+        ),author:"Khushi Yadav"
+
     }
 
 };
