@@ -41,19 +41,22 @@ p {
     padding-bottom: 20px;
 }
 
+/* Image Styling */
 .hrithika-blog {
-    height: 500px;
-    width: 100%; /* Ensure images are responsive */
-    max-width: 700px; /* Limit maximum width */
+    max-width: 100%; /* Make the container responsive */
+    height: auto; /* Ensure proportional scaling */
+    margin: 20px 0;
 }
 
 .blog-image img {
-    max-width: 100%;
-    height: auto;
+    max-width: 100%; /* Scale the image to fit its container */
+    height: auto; /* Maintain aspect ratio */
     margin: 20px 0;
     border-radius: 8px;
+    display: block; /* Fix inline spacing issues */
 }
 
+/* Comparison Table */
 .comparison-table {
     width: 100%;
     border-collapse: collapse;
@@ -61,7 +64,8 @@ p {
     table-layout: fixed; /* Prevents table from expanding too wide */
 }
 
-.comparison-table th, .comparison-table td {
+.comparison-table th,
+.comparison-table td {
     padding: 10px;
     border: 1px solid #ddd;
     text-align: left;
@@ -71,6 +75,19 @@ p {
 .comparison-table th {
     background-color: #f4f4f4;
     font-weight: bold;
+}
+
+/* Navbar and Footer Fixes */
+.navbar, .footer {
+    width: 100%;
+    max-width: 100%; /* Prevents content overflow */
+    overflow-x: hidden;
+}
+
+/* Universal Reset */
+* {
+    box-sizing: border-box; /* Includes padding and border in element's width */
+    max-width: 100%; /* Constrain elements to viewport width */
 }
 
 /* Media Queries for responsiveness */
@@ -84,6 +101,7 @@ p {
 
     h1 {
         font-size: 2rem;
+        margin-top: 3rem;
     }
 
     h2 {
@@ -103,11 +121,11 @@ p {
     }
 
     .hrithika-blog {
-        height: 400px;
-        width: 100%;
+        height: auto; /* Make height responsive */
     }
 
-    .comparison-table th, .comparison-table td {
+    .comparison-table th,
+    .comparison-table td {
         font-size: 0.9rem;
     }
 }
@@ -121,6 +139,7 @@ p {
 
     h1 {
         font-size: 1.5rem;
+        margin-top: 3rem;
     }
 
     h2 {
@@ -140,11 +159,11 @@ p {
     }
 
     .hrithika-blog {
-        height: 300px;
-        width: 100%;
+        height: auto; /* Ensure the height adapts */
     }
 
-    .comparison-table th, .comparison-table td {
+    .comparison-table th,
+    .comparison-table td {
         font-size: 0.8rem;
         padding: 8px;
     }
@@ -152,4 +171,11 @@ p {
     .comparison-table {
         font-size: 0.9rem;
     }
+}
+
+/* Prevents horizontal scrolling and white space issues */
+html, body {
+    margin: 0;
+    overflow-x: hidden; /* Enforce no horizontal scroll */
+    width: 100%;
 }

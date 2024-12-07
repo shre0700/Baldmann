@@ -6,6 +6,7 @@ import arduino from './arduino.jpg';
 import ml from './ml.png';
 import p1a from '../pages/Picture1.png';
 import sa2 from '../pages/s_a2.jpg';
+import k1_a from '../assests/k1_a.jpg';
 import { Link } from 'react-router-dom';
 
 const Featured = () => {
@@ -16,6 +17,16 @@ const Featured = () => {
                     <p className="f-title">Featured Blogs</p>
                 </div>
                 <div className="featured-blogs">
+                <div className="featured-blog-card">
+                        <img src={k1_a} alt="Blog Cover" className="fb-image" />
+                        <div className="fb-content">
+                            <p className="fb-title">Brainwaves: What Your Brain is Really Doing...</p>
+                            <p className="fb-author">by Khushi Yadav</p>
+                            <Link to="/blog/7" className="fb-read-link">
+                                <button className="fb-read">Read More</button>
+                            </Link>
+                        </div>
+                    </div>
                     <div className="featured-blog-card">
                         <img src={sa2} alt="Blog Cover" className="fb-image" />
                         <div className="fb-content">
