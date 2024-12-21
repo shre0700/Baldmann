@@ -13,7 +13,11 @@ import AboutUs from './pages/AboutUs';
 import Partners from './pages/Partners';
 import OurTeam from './pages/OurTeam';
 import BlogPage from './pages/BlogPage';
-
+import Courses from './pages/Courses';
+import MLmodel from './pages/MLmodel';
+import BrainGame from './pages/BrainGame';
+import BaldSphere from './pages/BaldSphere';
+import AboutAndTeam from './pages/AboutAndTeam';
 
 
 function App() {
@@ -29,32 +33,42 @@ function App() {
             <>
               <div id="hero">
                 <HeroSection />
+                <BCI />
+              </div>
+              <div>
+                <AboutUs/>
+              </div>
+              <div id="courses">
+                <Courses/>
+              </div>
+              <div id="model">
+                <MLmodel/>
+              </div>
+              <div id="brain_game">
+                <BrainGame/>
+              </div>
+              <div id="baldSphere">
+                <BaldSphere/>
               </div>
               <div id="featured">
                 <Featured />
               </div>
-              <div id="about">
-                <BCI />
-                <AboutUs />
-                <Partners />
-              </div> 
               <div id="contact">
                 <ContactUs />
-                <OurTeam />
               </div>
+              {/* <div id="about">
+                <Partners />
+              </div> */}
             </>
           } 
         />
         
-        {/* Individual blog pages */}
-        <Route
-          path="/blog/:id" element={<BlogPage />}/>
+        <Route path="/blog/:id" element={<BlogPage />}/>
 
-        {/* Other routes */}
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/partners" element={<Partners />} />
+        {/* <Route path="/about" element={<AboutUs />} /> */}
+        {/* <Route path="/partners" element={<Partners />} /> */}
         <Route path="/contact" element={<ContactUs />} />
-        <Route path="/team" element={<OurTeam />} />
+        <Route path="/team" element={<AboutAndTeam />} />
       </Routes>
 
       <Footer />

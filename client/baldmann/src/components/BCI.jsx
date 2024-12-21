@@ -1,9 +1,9 @@
 import React from "react";
 import './BCI.css';
-// import { LuBrainCircuit } from "react-icons/lu";
-// import { GoGraph } from "react-icons/go";
-// import { RiRobot2Line } from "react-icons/ri";
-// import { MdDevicesOther } from "react-icons/md";
+import { LuBrainCircuit } from "react-icons/lu";
+import { GoGraph } from "react-icons/go";
+import { RiRobot2Line } from "react-icons/ri";
+import { MdDevicesOther } from "react-icons/md";
 const BCI = () =>{
     return(
         <>
@@ -18,7 +18,7 @@ const BCI = () =>{
                     </p>
                 </div>
             </div>
-            {/* <div className="about-bci-stages">
+            <div className="about-bci-stages">
                 <div className="bci-stages">
                     <LuBrainCircuit/>
                     <h3>Stage 1 - Signal Acquisition</h3>
@@ -39,7 +39,7 @@ const BCI = () =>{
                     <h3>Stage 4 - Device Output </h3>
                     <p>The output device can perform functions like cursor control, letter selection, or robotic arm operation.</p>
                 </div>
-            </div> */}
+            </div>
         </div>
         </>
     );

@@ -1,24 +1,24 @@
-/* Base styling */
+/* 
 .industry-main {
     padding: 20px;
-    background-color: #FFD700;
+    margin-top: 3rem;
+    
 }
 
 .about-bci {
     width: 100%;
     text-align: center;
-    background: url('./industry-background-final.png') no-repeat center center;
     background-size: cover;
     color: #FFF;
 }
 
 .about-bci-title {
-    padding-top: 50px;
     font-size: 3rem;
     background-color: #FFD700;
-    width: 80%;
+    width: 90%;
     margin: auto;
     transition: color 0.3s ease;
+    border-radius: 20px;
 }
 
 .about-bci-title:hover {
@@ -33,8 +33,8 @@
     background-color: #FFD700;
     opacity: 0.85;
     padding: 20px;
-    font-size: 1.2rem;
-    border-radius: 8px;
+    font-size: 1.7rem;
+    border-radius: 20px;
     transition: opacity 0.3s ease, font-size 0.3s ease;
 }
 
@@ -43,7 +43,7 @@
     opacity: 1;
 }
 
-/* Responsive styling */
+
 @media (max-width: 1200px) {
     .about-bci-title {
         font-size: 2.5rem;
@@ -85,4 +85,100 @@
     .about-bci-text {
         font-size: 0.9rem;
     }
+}  */
+
+/* General styling for the BCI component */
+.industry-main {
+    background-color: #f9f9f9;
+    padding: 2.5rem 0;
 }
+
+/* About BCI section styling */
+.about-bci {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-bci-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-bci-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    margin: 0 auto;
+    width:90%;
+    font-weight: 500;
+}
+
+/* .about-bci-text p:hover{
+    color:#FFD700;
+} */
+
+
+.about-bci-stages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bci-stages {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background: #FFD700;
+}
+
+.bci-stages:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.bci-stages h3 {
+    font-size: 1.25rem;
+    margin: 15px 0;
+    color: #333;
+}
+
+.bci-stages p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+.bci-stages svg {
+    font-size: 3rem;
+    color: #fff;
+    background-color: #EACBED;
+    border-radius: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .bci-stages {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-bci-title {
+        font-size: 2rem;
+    }
+
+    .about-bci-text p {
+        font-size: 0.9rem;
+    }
+}
+

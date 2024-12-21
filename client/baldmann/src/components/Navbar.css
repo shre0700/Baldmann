@@ -58,11 +58,17 @@
   font-size: 1.1rem;
   font-weight: 600;
   transition: color 0.3s ease;
+  border-radius: 20px;
+  padding: 5px 15px; 
+  transition: 1s;
+  /* background-color: #FFD700; */
 }
 
 .menu-link ul li a:hover {
-  color: #FFD700;
+  background-color: #FFD700;
+  border-radius: 20px;
   font-size: 1.15rem;
+
 }
 
 /* Hamburger menu styling */
@@ -92,7 +98,7 @@
 }
 
 /* Media query for tablets */
-@media (max-width: 998px) {
+@media (max-width: 1110px) {
   .menu-link {
       display: none;
   }

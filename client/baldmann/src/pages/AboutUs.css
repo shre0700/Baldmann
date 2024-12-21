@@ -5,8 +5,12 @@
     padding: 20px;
     flex-wrap: wrap;
     gap: 20px;
-    background: url('industry-background-final.png');
-    margin-bottom: 60px;
+    /* background: url('industry-background-final.png'); */
+    background-color: #000;
+    /* margin-bottom: 60px; */
+    width:80%;
+    margin: 60px auto;
+    border-radius: 20px;
 }
 
 .flip-card {
@@ -46,7 +50,7 @@
 }
 
 .flip-card-front {
-    background-color: #EACBED;
+    background-color: #FFF;
     color: #000;
 }
 
