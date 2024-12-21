@@ -3,6 +3,10 @@ import './AboutUs.css';
 import { TbTargetArrow } from "react-icons/tb";
 import { FaRegEye } from "react-icons/fa";
 import { IoDiamondOutline } from "react-icons/io5";
+import Lottie from "lottie-react";
+import mission from './mission.json';
+import vision from './vision.json';
+import values from './values.json';
 
 const AboutUs = () => {
     return (
@@ -10,7 +14,8 @@ const AboutUs = () => {
             <div className="flip-card">
                 <div className="flip-card-inner">
                     <div className="flip-card-front">
-                        <TbTargetArrow size={40} />
+                        {/* <TbTargetArrow size={40} /> */}
+                        <Lottie animationData={mission} classname="mission-animation"></Lottie>
                         <p className="card-title">Our Mission</p>
                     </div>
                     <div className="flip-card-back">
@@ -22,7 +27,8 @@ const AboutUs = () => {
             <div className="flip-card">
                 <div className="flip-card-inner">
                     <div className="flip-card-front">
-                        <FaRegEye size={40} />
+                        {/* <FaRegEye size={40} /> */}
+                        <Lottie animationData={vision}></Lottie>
                         <p className="card-title">Our Vision</p>
                     </div>
                     <div className="flip-card-back">
@@ -35,7 +41,8 @@ const AboutUs = () => {
             <div className="flip-card">
                 <div className="flip-card-inner">
                     <div className="flip-card-front">
-                        <IoDiamondOutline size ={40}/>
+                        {/* <IoDiamondOutline size ={40}/> */}
+                        <Lottie animationData={values}></Lottie>
                         <p className="card-title">Our Values</p>
                     </div>
                     <div className="flip-card-back">

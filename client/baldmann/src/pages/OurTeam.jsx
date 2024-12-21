@@ -3,7 +3,6 @@ import React from 'react';
 import Cards from './Cards.jsx';
 import './OurTeam.css';
 import ceo from './ceo.jpg';
-import cmo from './cmo.jpg';
 import coo from './coo.jpg';
 import cto from './cto.jpg';
 
@@ -11,7 +10,6 @@ import Ishaan from './ishaan.jpg';
 import Dhiyanesh from './Dhiyanesh.jpg';
 import Harshith from './harshith.jpg';
 import Pritha from './Pritha.jpg';
-import Hritika from './hrithika.jpg';
 import Vrisha from './vrisha.jpg';
 import Teja from './Teja.jpg';
 import Rakesh from './Rakesh.jpg';
@@ -26,6 +24,11 @@ import sathish from './sathish.jpg';
 import simrat from './simrat.jpg';
 import khushi from './khushi.jpg';
 import aditi from './Aditi.jpg';
+import naina from './naina.jpg';
+import atmajo from './atmajo.jpg';
+import sanchita from './sanchita.jpg';
+import mrithula from './mrithula.jpg';
+import niki from './niki.jpg';
 
 const OurTeam = () => {
   return (
@@ -35,31 +38,25 @@ const OurTeam = () => {
       </div>
 
       <div className="our-team-office">
-        <div className="office-ceo">
-          <Cards
-            imageSrc={ceo}
-            name="Ketan Chouhan"
-            position="CEO"
-            linkedin="https://www.linkedin.com/in/ketan-chouhan-47020826b/"
-            size="large"
-          />
-        </div>
+        {/* <div className="office-ceo">
+          
+        </div> */}
 
-        {/* Office Members (CMO, CTO, COO) */}
         <div className="office">
-          <Cards
-            imageSrc={cmo}
-            name="Sachita Krishnamurthy"
-            position="COO"
-            linkedin="https://www.linkedin.com/in/sachitakrishnamurthy/"
-            size="medium"
-          />
+        
           <Cards
             imageSrc={cto}
             name="Akshat Jain"
             position="CTO"
             linkedin="https://www.linkedin.com/in/akshat-jain-362262275/"
             size="medium"
+          />
+          <Cards
+            imageSrc={ceo}
+            name="Ketan Chouhan"
+            position="CEO"
+            linkedin="https://www.linkedin.com/in/ketan-chouhan-47020826b/"
+            size="large"
           />
           <Cards
             imageSrc={coo}
@@ -70,7 +67,6 @@ const OurTeam = () => {
           />
         </div>
         <div className='the-head-dep'>
-            {/* <p className='the-heads-title'>Head of Departments</p> */}
         <Cards
             imageSrc={Rakesh}
             name="Rakesh Prajapati"
@@ -86,13 +82,6 @@ const OurTeam = () => {
             size="med"
           />
           <Cards
-            imageSrc={Hritika}
-            name="Hritika Pathak"
-            position="Head of NeuroScience"
-            linkedin="https://www.linkedin.com/in/hritika-pathak-b9b7342aa/"
-            size="med"
-          />
-          <Cards
             imageSrc={Vrisha}
             name="Vrisha Parikh"
             position="Head of Drone Technology"
@@ -102,7 +91,7 @@ const OurTeam = () => {
           <Cards
             imageSrc={Dhiyanesh}
             name="Dhiyanesh S"
-            position="Head of Signal Acquisition"
+            position="Head of Neuroscience"
             linkedin="https://www.linkedin.com/in/dhiyanesh-srinivasan/"
             size="med"
           />
@@ -127,6 +116,18 @@ const OurTeam = () => {
           <Cards
             imageSrc={aditi}
             name="Aditi Krishnan"
+            position="ML Specialist"
+            size="small"
+          />
+          <Cards
+            imageSrc={mrithula}
+            name="N Mrithula"
+            position="ML Specialist"
+            size="small"
+          />
+          <Cards
+            imageSrc={naina}
+            name="Nainika Pathak"
             position="ML Specialist"
             size="small"
           />
@@ -194,6 +195,18 @@ const OurTeam = () => {
             position="Neuroscientist"
             size="small"
           />
+          <Cards
+            imageSrc={atmajo}
+            name="Atmajo Thakurta"
+            position="Neuroscientist"
+            size="small"
+          />
+          <Cards
+            imageSrc={niki}
+            name="Nikhilesh puri"
+            position="Neuroscientist"
+            size="small"
+          />
          <Cards
             imageSrc={sathish}
             name="Sathish Sarathy"
@@ -201,8 +214,6 @@ const OurTeam = () => {
             linkedin="https://www.linkedin.com/in/sathish-sarathy-06357a275/"
             size="small"
           />
-
-          
 
           <Cards
             imageSrc={nain}
@@ -212,6 +223,15 @@ const OurTeam = () => {
             size="small"
           />
           
+          <Cards
+            imageSrc={sanchita}
+            name="Sanchita V"
+            position="Drone Engineer"
+            size="small"
+          />
+          
+
+
         </div>
       </div>
     </div>
