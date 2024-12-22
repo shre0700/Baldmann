@@ -111,18 +111,21 @@ const OurTeam = () => {
             imageSrc={khushi}
             name="Khushi Yadav"
             position="ML Specialist"
+            linkedin="https://www.linkedin.com/in/khushi-yadav-34b237317/"
             size="small"
           />
           <Cards
             imageSrc={aditi}
             name="Aditi Krishnan"
             position="ML Specialist"
+            linkedin="https://www.linkedin.com/in/aditi-krishnan-ab509028b/"
             size="small"
           />
           <Cards
             imageSrc={mrithula}
             name="N Mrithula"
             position="ML Specialist"
+            linkedin="https://www.linkedin.com/in/mrithula-n-92199b284/"
             size="small"
           />
           <Cards
@@ -186,6 +189,7 @@ const OurTeam = () => {
             imageSrc={simrat}
             name="Simrat Kaur"
             position="Neuroscientist"
+            linkedin="https://www.linkedin.com/in/simrat-kaur-8a4017332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
             size="small"
           />
 
@@ -199,12 +203,14 @@ const OurTeam = () => {
             imageSrc={atmajo}
             name="Atmajo Thakurta"
             position="Neuroscientist"
+            linkedin="https://www.linkedin.com/in/atmajo-thakurta-b58a09277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             size="small"
           />
           <Cards
             imageSrc={niki}
             name="Nikhilesh puri"
             position="Neuroscientist"
+            linkedin="https://www.linkedin.com/in/nikhilesh-puri-b7a3542a8/"
             size="small"
           />
          <Cards
