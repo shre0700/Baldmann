@@ -18,11 +18,13 @@ import MLmodel from './pages/MLmodel';
 import BrainGame from './pages/BrainGame';
 import BaldSphere from './pages/BaldSphere';
 import AboutAndTeam from './pages/AboutAndTeam';
+import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop/>
       <Navbar />
       
       <Routes>
