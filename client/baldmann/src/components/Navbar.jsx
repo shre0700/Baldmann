@@ -5,8 +5,6 @@ import { HashLink } from "react-router-hash-link"; // Use HashLink for smooth sc
 import './Navbar.css';
 import logo from './logo-yellow-final.png';
 import { GiHamburgerMenu } from "react-icons/gi";
-import { Route, Routes } from "react-router-dom";
-import AboutAndTeam from '../pages/AboutAndTeam.jsx';
 import { Link } from "react-router-dom";
 
 const Navbar = () => {

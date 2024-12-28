@@ -29,12 +29,13 @@ import atmajo from './atmajo.jpg';
 import sanchita from './sanchita.jpg';
 import mrithula from './mrithula.jpg';
 import niki from './niki.jpg';
+import balaji from './balaji.jpg';
 
 const OurTeam = () => {
   return (
     <div className="our-team-main">
       <div className="our-team-title">
-        <p>Bald People</p>
+        <p><a href="https://www.linkedin.com/company/baldmann/posts/?feedView=all">Bald People</a></p>
       </div>
 
       <div className="our-team-office">
@@ -163,6 +164,12 @@ const OurTeam = () => {
             size="small"
           />
           <Cards
+            imageSrc={balaji}
+            name="Arjun Balaji"
+            position="Cyber Security Analyst"
+            size="small"
+          />
+          <Cards
             imageSrc={Pritha}
             name="Pritha Sharma"
             position="Robotics Engineer"
@@ -233,6 +240,7 @@ const OurTeam = () => {
             imageSrc={sanchita}
             name="Sanchita V"
             position="Drone Engineer"
+            linkedin="https://www.linkedin.com/in/sanchitha-v-5898b7225/"
             size="small"
           />
           
