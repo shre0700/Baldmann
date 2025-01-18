@@ -490,9 +490,6 @@ const blogData = {
                 <li><b>Cloud-Based Scalability:</b></li>
                 <p>Vertex AI’s cloud integration allows healthcare providers to monitor multiple patients remotely, offering scalable and efficient care for those in need.</p>
             </ol>
-            <h2>Changing Lives, One Story at a Time</h2>
-            <p>Take the story of Shreya. Once an avid painter, she lost her arm in a car accident. Overwhelmed by the thought of depending on her family for everything, she spiraled into self-doubt. But with <b>Bald Buddy</b>, Shreya now controls her prosthetic arm with precision, even picking up her paintbrush again. Her family no longer sees her as a dependent — they see the resilient artist she’s always been.</p>
-            <p>Or consider Arjun, a young father who felt helpless after an accident left him with mobility challenges. <b>Bald Buddy </b>not only helped him regain control over his prosthetic arm but also monitored his mental health, alerting his caregiver during moments of heightened anxiety. Today, Arjun spends his evenings playing with his son, knowing he’s supported in every way possible.</p>
             <h2>A Future Where No One Feels Left Behind</h2>
             <p>With <b>Bald Buddy</b>, we envision a world where:</p>
             <ul>

@@ -2,6 +2,7 @@
 body {
     margin: 0;
     overflow-x: hidden; /* Prevent horizontal scrolling */
+    line-height: 1.6;
 }
 
 .blog-content-page {
@@ -31,7 +32,6 @@ h3 {
 .blog-page-content{
     font-size: 1.2rem;
     margin-bottom: 20px;
-    font-weight: 500;
     line-height: 1.8;
     word-wrap: break-word; /* Prevent overflow for long words in paragraphs */
 }
