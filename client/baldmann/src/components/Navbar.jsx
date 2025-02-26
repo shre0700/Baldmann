@@ -39,13 +39,9 @@ const Navbar = () => {
                         </HashLink>
                     </li>
                     <li>
-                        <HashLink 
-                            smooth 
-                            to="/#courses" 
-                            onClick={closeMobileMenu}
-                        >
-                            Learn
-                        </HashLink>
+                    <Link to="/learn" onClick={closeMobileMenu}>
+                        Learn
+                    </Link>
                     </li>
                     <li>
                         <HashLink 
@@ -57,13 +53,9 @@ const Navbar = () => {
                         </HashLink>
                     </li>
                     <li>
-                        <HashLink 
-                            smooth 
-                            to="/#brain_game" 
-                            onClick={closeMobileMenu}
-                        >
-                           Brain Game
-                        </HashLink>
+                    <Link to="https://www.baldgame.xyz/" onClick={closeMobileMenu}>
+                        Brain Game
+                    </Link>
                     </li>
                     <li>
                         <HashLink 

@@ -125,7 +125,7 @@ const Featured = () => {
           <p className="latest-blog-title">{blogs[0].title}</p>
           <p className="latest-blog-author">by {blogs[0].author}</p>
           <Link to={blogs[0].link} className="latest-blog-read-link">
-            <button className="latest-blog-read">Read More</button>
+            <button className="latest-blog-read">Read</button>
           </Link>
         </div>
       </div>
@@ -141,7 +141,7 @@ const Featured = () => {
                 <p className="blog-title">{blog.title}</p>
                 <p className="blog-author">by {blog.author}</p>
                 <Link to={blog.link} className="blog-read-link">
-                  <button className="blog-read">Read More</button>
+                  <button className="blog-read">Read</button>
                 </Link>
               </div>
             </div>

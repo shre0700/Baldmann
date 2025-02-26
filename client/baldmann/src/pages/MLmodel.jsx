@@ -6,6 +6,7 @@ import mlAnimation from './ml_animation.json';
 const MLmodel = () => {
     return(
         <>
+        <p className="title-main">Upcoming</p>
         <div className="model-main">
             <div className="model-div">
                 <p className="model-title">Machine Learning Models</p>

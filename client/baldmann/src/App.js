@@ -40,15 +40,15 @@ function App() {
               <div>
                 <AboutUs/>
               </div>
-              <div id="courses">
+              {/* <div id="courses">
                 <Courses/>
-              </div>
+              </div> */}
               <div id="model">
                 <MLmodel/>
               </div>
-              <div id="brain_game">
+              {/* <div id="brain_game">
                 <BrainGame/>
-              </div>
+              </div> */}
               <div id="baldSphere">
                 <BaldSphere/>
               </div>
@@ -71,6 +71,7 @@ function App() {
         {/* <Route path="/partners" element={<Partners />} /> */}
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/team" element={<AboutAndTeam />} />
+        <Route path="/learn" element={<Courses />} />
       </Routes>
 
       <Footer />
