@@ -103,6 +103,9 @@
     color: black;
     margin-top: 10px;
   }
+  .video-title span{
+    color:#ffd700;
+  }
   
   .video-number {
     color: #ffd700;
