@@ -68,27 +68,27 @@ const Courses = () => {
         {
           id: 1,
           title: "Introduction to Signal processing in EEG",
-          url: "#",
+          url: "https://drive.google.com/drive/folders/1KKh2kpHXU7BvSdcMD_qVSJ-Kjmqp0hhx",
         },
         {
           id: 2,
           title: "Importing Data",
-          url: "#",
+          url: "https://drive.google.com/file/d/1ZrpRBesVELVR8_QfAxOnyPPI7ekmIM2H/view?usp=drive_link",
         },
         {
           id: 3,
           title: "Regerencing and Resampling Teachniques in EEG Data Processing",
-          url: "#",
+          url: "https://drive.google.com/file/d/1Vow4l9ywyv-kcR7cSRhAiKxfhb4HfUsq/view?usp=drive_link",
         },
         {
           id: 4,
           title: "Data Visualisation and Quality Enhancement",
-          url: "#",
+          url: "https://drive.google.com/file/d/1SFKU4etO7GCVULcqEyY0yBfCXcxd0uD7/view?usp=drive_link",
         },
         {
           id: 5,
           title: "Fourier Analysis of EEG Data",
-          url: "#"
+          url: "https://drive.google.com/file/d/18SfKItrf9rc9W6Aw7UZlyyAJyfVLCTym/view?usp=drive_link"
         }
       ];
 
