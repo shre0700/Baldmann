@@ -1,24 +1,42 @@
+<<<<<<< HEAD
 
 .card {
   padding: 20px;
   border-radius: 25px;
   /* box-shadow: 0 4px 8px rgba(222, 215, 8, 0.24); */
   background-color: #000000ce;
+=======
+/* src/components/CardComponent.css */
+
+/* Base Card Styling */
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(222, 215, 8, 0.24);
+  background-color: #000;
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
   text-align: center;
   margin: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+<<<<<<< HEAD
   
 }
 
 
+=======
+}
+
+/* Hover Effects */
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
 .card:hover {
   transform: translateY(-10px);
   box-shadow: 0 8px 16px rgba(194, 188, 5, 0.3);
 }
 
+<<<<<<< HEAD
 
 .card.large {
   width: 230px;
@@ -28,15 +46,28 @@
 .card.medium {
   width: 210px;
   height:350px;
+=======
+/* Card Sizes */
+.card.large {
+  width: 250px;
+}
+
+.card.medium {
+  width: 220px;
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
 }
 
 .card.med {
   width: 200px;
+<<<<<<< HEAD
   height:320px;
+=======
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
 }
 
 .card.small {
   width: 180px;
+<<<<<<< HEAD
   height:300px;
 }
 
@@ -47,6 +78,17 @@
   border-radius:50%;
   object-fit: cover;
 
+=======
+}
+
+/* Image Styling for Each Card Size */
+.card.large .card-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  /* border-bottom: 2px solid #FFF; */
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
 }
 
 .card.medium .card-image {
@@ -54,7 +96,11 @@
   height: 190px;
   border-radius: 50%;
   object-fit: cover;
+<<<<<<< HEAD
 
+=======
+  /* border: 2px solid #FFFFFF; */
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
 }
 
 .card.med .card-image {
@@ -74,11 +120,18 @@
   font-size: 1.2rem;
 }
 
+<<<<<<< HEAD
 .card-name {
   font-size: 1.3rem;
   color: #fff;
   height:70px;
   /* border: 1px solid white; */
+=======
+/* Text Styling */
+.card-name {
+  font-size: 1.3rem;
+  color: #fff;
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
 }
 
 .card-position {
@@ -86,11 +139,17 @@
   color: #fff;
   margin-bottom: 5px;
   font-weight: 500;
+<<<<<<< HEAD
   height:55px;
   /* border: 1px solid white; */
 }
 
 
+=======
+}
+
+/* Link Styling */
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
 .card-link {
   color: #FFD700;
   font-size: 1.2rem;
@@ -103,7 +162,11 @@
   color: #000;
 }
 
+<<<<<<< HEAD
 
+=======
+/* Responsive Adjustments */
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
 @media (max-width: 768px) {
   .card.large {
     width: 240px;
@@ -114,7 +177,11 @@
   }
 
   .card.med {
+<<<<<<< HEAD
     width: 190px;
+=======
+    width: 1900px;
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
   }
 
   .card.small {
@@ -122,11 +189,19 @@
   }
 
   .card-name {
+<<<<<<< HEAD
     font-size: 1.3rem;
   }
 
   .card-position {
     font-size: 1.2rem;
+=======
+    font-size: 1rem;
+  }
+
+  .card-position {
+    font-size: 0.9rem;
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
   }
   .card.large .card-image {
     width: 160px;
@@ -156,6 +231,7 @@
 
 @media (max-width: 480px) {
   .card.large {
+<<<<<<< HEAD
     width: 200px;
     height:320px;
   }
@@ -313,20 +389,30 @@
   .card.large {
     width: 230px;
     height: 270px;
+=======
+    width: 230px;
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
   }
 
   .card.medium {
     width: 200px;
+<<<<<<< HEAD
     height: 250px;
+=======
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
   }
 
   .card.med {
     width: 180px;
+<<<<<<< HEAD
     height: 230px;
+=======
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
   }
 
   .card.small {
     width: 160px;
+<<<<<<< HEAD
     height: 210px;
   }
 
@@ -338,3 +424,15 @@
     font-size: 0.9rem;
   }
 } */
+=======
+  }
+
+  .card-name {
+    font-size: 0.9rem;
+  }
+
+  .card-position {
+    font-size: 0.8rem;
+  }
+}
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a

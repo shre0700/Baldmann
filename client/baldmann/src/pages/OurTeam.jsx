@@ -30,7 +30,10 @@ import sanchita from './sanchita.jpg';
 import mrithula from './mrithula.jpg';
 import niki from './niki.jpg';
 import balaji from './balaji.jpg';
+<<<<<<< HEAD
 import garv from './garv.jpg';
+=======
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
 
 const OurTeam = () => {
   return (
@@ -40,6 +43,12 @@ const OurTeam = () => {
       </div>
 
       <div className="our-team-office">
+<<<<<<< HEAD
+=======
+        {/* <div className="office-ceo">
+          
+        </div> */}
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
 
         <div className="office">
         
@@ -94,6 +103,7 @@ const OurTeam = () => {
             linkedin="https://www.linkedin.com/in/dhiyanesh-srinivasan/"
             size="med"
           />
+<<<<<<< HEAD
           <Cards
             imageSrc={Joshua}
             name="Joshua Williams"
@@ -108,47 +118,75 @@ const OurTeam = () => {
             linkedin="https://www.linkedin.com/in/tejashwan-gangishetty-318b9728a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
             size="med"
           />
+=======
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
 
         </div>
         {/* Other Team Members */}
         <div className="the-bald-team">
+<<<<<<< HEAD
           <div className='the-bald-t'>
           <Cards
             imageSrc={Ishaan}
             name="Ishaan Mishra"
             position="Senior ML Specialist"
+=======
+        
+          <Cards
+            imageSrc={Ishaan}
+            name="Ishaan Mishra"
+            position="ML Specialist"
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
             linkedin="https://www.linkedin.com/in/team-member-1"
             size="small"
           />
           <Cards
             imageSrc={khushi}
             name="Khushi Yadav"
+<<<<<<< HEAD
             position="ML Trainee"
+=======
+            position="ML Specialist"
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
             linkedin="https://www.linkedin.com/in/khushi-yadav-34b237317/"
             size="small"
           />
           <Cards
             imageSrc={aditi}
             name="Aditi Krishnan"
+<<<<<<< HEAD
             position="Senior ML Specialist"
+=======
+            position="ML Specialist"
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
             linkedin="https://www.linkedin.com/in/aditi-krishnan-ab509028b/"
             size="small"
           />
           <Cards
             imageSrc={mrithula}
             name="N Mrithula"
+<<<<<<< HEAD
             position="Neuroscientist"
+=======
+            position="ML Specialist"
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
             linkedin="https://www.linkedin.com/in/mrithula-n-92199b284/"
             size="small"
           />
           <Cards
             imageSrc={naina}
             name="Nainika Pathak"
+<<<<<<< HEAD
             position="ML Trainee"
             size="small"
           />
           </div>
           <div className='the-bald-t'>
+=======
+            position="ML Specialist"
+            size="small"
+          />
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
           <Cards
             imageSrc={Harshith}
             name="Harshith B"
@@ -163,7 +201,17 @@ const OurTeam = () => {
             linkedin="https://www.linkedin.com/in/latisha-pinjari-79470328b"
             size="small"
           />
+<<<<<<< HEAD
           
+=======
+          <Cards
+            imageSrc={Joshua}
+            name="Joshua Williams"
+            position="Game Developer"
+            linkedin="https://www.linkedin.com/in/joshuarolandwilliams/"
+            size="small"
+          />
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
           <Cards
             imageSrc={Anisha}
             name="Anisha Plawat"
@@ -184,8 +232,19 @@ const OurTeam = () => {
             linkedin="https://www.linkedin.com/in/prithasharma?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
             size="small"
           />
+<<<<<<< HEAD
           </div>
           <div className='the-bald-t'>
+=======
+          <Cards
+            imageSrc={Teja}
+            name="Tejashwan Gangishetty"
+            position="Robotics Engineer"
+            linkedin="https://www.linkedin.com/in/tejashwan-gangishetty-318b9728a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+            size="small"
+          />
+          
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
           <Cards
             imageSrc={Sanjana}
             name="Sanjana Sudarsan"
@@ -197,7 +256,11 @@ const OurTeam = () => {
           <Cards
             imageSrc={simrat}
             name="Simrat Kaur"
+<<<<<<< HEAD
             position="Blogger"
+=======
+            position="Neuroscientist"
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
             linkedin="https://www.linkedin.com/in/simrat-kaur-8a4017332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
             size="small"
           />
@@ -222,9 +285,13 @@ const OurTeam = () => {
             linkedin="https://www.linkedin.com/in/nikhilesh-puri-b7a3542a8/"
             size="small"
           />
+<<<<<<< HEAD
           </div>
           <div className='the-bald-t'>
           <Cards
+=======
+         <Cards
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
             imageSrc={sathish}
             name="Sathish Sarathy"
             position="VLSI Specialist"
@@ -247,6 +314,7 @@ const OurTeam = () => {
             linkedin="https://www.linkedin.com/in/sanchitha-v-5898b7225/"
             size="small"
           />
+<<<<<<< HEAD
           <Cards
             imageSrc={garv}
             name="Garv Bansal"
@@ -255,6 +323,10 @@ const OurTeam = () => {
             size="small"
           />
           </div>
+=======
+          
+
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
 
         </div>
       </div>
@@ -263,6 +335,9 @@ const OurTeam = () => {
 };
 
 export default OurTeam;
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -77,3 +78,27 @@ const Courses = () => {
 
 export default Courses;
 
+=======
+import React from "react";
+import Lottie from "lottie-react";
+import CourseAnimation from './Animation.json';
+import './Courses.css';
+
+const Courses =  () => {
+    return(
+        <>
+        <p className="title-main">Upcoming</p>
+        <div className="courses-main">
+            <div className="upcoming-courses">
+            <Lottie animationData={CourseAnimation} className='course-animation'/>
+            <p className="coming-soon">Courses coming soon...</p>
+            </div>
+            
+        </div>
+
+        </>
+    );
+};
+
+export default Courses;
+>>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
