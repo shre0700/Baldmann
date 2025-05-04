@@ -1,7 +1,6 @@
 
 .our-team-main {
   padding: 40px;
-<<<<<<< HEAD
   text-align: center;
   background-image: url(../pages/our-team-t.png);
   background-repeat: repeat;
@@ -15,21 +14,6 @@
 }
 .our-team-title a {
   font-size: 2.8rem;
-=======
-  background-color: #f5f5f5;
-  text-align: center;
-  margin-top: 50px;
-  background: url(../pages/industry-background-final.png);
-}
-.our-team-title p{
-  width:30%;
-  margin : 20px auto;
-  border-radius: 20px;
-  background-color: #ffd700;
-}
-.our-team-title a {
-  font-size: 2.5rem;
->>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
   font-weight: bold;
   color: #000;
   text-decoration: none;
@@ -40,7 +24,6 @@
 }
 
 
-<<<<<<< HEAD
 .office-ceo
 {
   display: flex;
@@ -54,13 +37,6 @@
   display: flex;
   justify-content: center;
   margin: 60px 0;
-=======
-.office-ceo,
-.the-head-dep {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
->>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
   flex-wrap: wrap;
   gap: 20px;
 }
@@ -80,7 +56,6 @@
   gap: 15px;
 }
 
-<<<<<<< HEAD
 .the-bald-t{
   display: flex;
   flex-wrap: wrap;
@@ -91,12 +66,6 @@
 
 
 @media (max-width: 550px) {
-=======
-/* Media Queries for Responsive Design */
-
-@media (max-width: 550px) {
-  /* Mobile view adjustments */
->>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
 
   .our-team-title p {
     font-size: 2rem;
@@ -114,10 +83,6 @@
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-<<<<<<< HEAD
-=======
-  /* Tablet view adjustments */
->>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
 
   .our-team-title p {
     font-size: 2.2rem;
@@ -133,10 +98,6 @@
 }
 
 @media (min-width: 1025px) {
-<<<<<<< HEAD
-=======
-  /* Desktop view adjustments */
->>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
   
   .our-team-title p {
     font-size: 3rem;
@@ -145,9 +106,5 @@
   .office {
     flex-direction: row;
   }
-<<<<<<< HEAD
 } 
 
-=======
-}
->>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
