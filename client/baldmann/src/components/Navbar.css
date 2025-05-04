@@ -53,11 +53,7 @@
 }
 
 .menu-link ul li a:hover {
-<<<<<<< HEAD
-  background-color: #ffd70038; 
-=======
   background-color: #e7df4a33; /* Subtle hover background */
->>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
 }
 
 /* Hamburger menu icon for mobile */
