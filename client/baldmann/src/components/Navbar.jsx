@@ -39,19 +39,9 @@ const Navbar = () => {
                         </HashLink>
                     </li>
                     <li>
-<<<<<<< HEAD
                     <Link to="/learn" onClick={closeMobileMenu}>
                         Learn
                     </Link>
-=======
-                        <HashLink 
-                            smooth 
-                            to="/#courses" 
-                            onClick={closeMobileMenu}
-                        >
-                            Learn
-                        </HashLink>
->>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
                     </li>
                     <li>
                         <HashLink 
@@ -63,19 +53,9 @@ const Navbar = () => {
                         </HashLink>
                     </li>
                     <li>
-<<<<<<< HEAD
                     <Link to="https://www.baldgame.xyz/" onClick={closeMobileMenu}>
                         Brain Game
                     </Link>
-=======
-                        <HashLink 
-                            smooth 
-                            to="/#brain_game" 
-                            onClick={closeMobileMenu}
-                        >
-                           Brain Game
-                        </HashLink>
->>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
                     </li>
                     <li>
                         <HashLink 

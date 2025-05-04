@@ -19,7 +19,6 @@ const Cards = ({ imageSrc, name, position, linkedin, size = "small" }) => {
 };
 
 export default Cards;
-<<<<<<< HEAD
 
 
 // import React from "react";
@@ -82,5 +81,3 @@ export default Cards;
 // export default Cards;
 
 
-=======
->>>>>>> 9aab31cc7eb1d3254cf883195f3efd249361518a
