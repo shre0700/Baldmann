@@ -251,7 +251,7 @@ const OurTeam = () => {
             imageSrc={garv}
             name="Garv Bansal"
             position="AR/VR Dev"
-            linkedin="#"
+            linkedin="https://www.linkedin.com/in/garv-bansal-133b47287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
             size="small"
           />
           </div>
