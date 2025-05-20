@@ -121,13 +121,6 @@ const OurTeam = () => {
             size="small"
           />
           <Cards
-            imageSrc={khushi}
-            name="Khushi Yadav"
-            position="ML Trainee"
-            linkedin="https://www.linkedin.com/in/khushi-yadav-34b237317/"
-            size="small"
-          />
-          <Cards
             imageSrc={aditi}
             name="Aditi Krishnan"
             position="ML Specialist"
@@ -165,13 +158,6 @@ const OurTeam = () => {
           />
           
           <Cards
-            imageSrc={Anisha}
-            name="Anisha Plawat"
-            position="Game Developer"
-            linkedin="https://www.linkedin.com/in/anisha-plawat-19b693259/"
-            size="small"
-          />
-          <Cards
             imageSrc={balaji}
             name="Arjun Balaji"
             position="Cyber Security Analyst"
@@ -184,6 +170,7 @@ const OurTeam = () => {
             linkedin="https://www.linkedin.com/in/prithasharma?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
             size="small"
           />
+          
           </div>
           <div className='the-bald-t'>
           <Cards
@@ -193,7 +180,6 @@ const OurTeam = () => {
             linkedin="https://www.linkedin.com/in/sanjana-sudarsan-5963ab31a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             size="small"
           />
-          
           <Cards
             imageSrc={simrat}
             name="Simrat Kaur"
@@ -215,6 +201,9 @@ const OurTeam = () => {
             linkedin="https://www.linkedin.com/in/atmajo-thakurta-b58a09277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             size="small"
           />
+          
+          </div>
+          <div className='the-bald-t'>
           <Cards
             imageSrc={niki}
             name="Nikhilesh puri"
@@ -222,16 +211,6 @@ const OurTeam = () => {
             linkedin="https://www.linkedin.com/in/nikhilesh-puri-b7a3542a8/"
             size="small"
           />
-          </div>
-          <div className='the-bald-t'>
-          <Cards
-            imageSrc={sathish}
-            name="Sathish Sarathy"
-            position="VLSI Specialist"
-            linkedin="https://www.linkedin.com/in/sathish-sarathy-06357a275/"
-            size="small"
-          />
-
           <Cards
             imageSrc={nain}
             name="Nainika Anish"

@@ -58,7 +58,7 @@ const Footer = () => {
 
             {/* Footer Bottom */}
             <div className="footer-bottom">
-                <p>© 2024 BaldMann. All rights reserved.</p>
+                <p>© 2025 BaldMann. All rights reserved.</p>
             </div>
         </footer>
     );
