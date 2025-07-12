@@ -1,91 +1,4 @@
-/* 
-.industry-main {
-    padding: 20px;
-    margin-top: 3rem;
-    
-}
 
-.about-bci {
-    width: 100%;
-    text-align: center;
-    background-size: cover;
-    color: #FFF;
-}
-
-.about-bci-title {
-    font-size: 3rem;
-    background-color: #FFD700;
-    width: 90%;
-    margin: auto;
-    transition: color 0.3s ease;
-    border-radius: 20px;
-}
-
-.about-bci-title:hover {
-    color: #000;
-}
-
-.about-bci-text {
-    width: 90%;
-    margin: 30px auto;
-    text-align: center;
-    line-height: 1.6;
-    background-color: #FFD700;
-    opacity: 0.85;
-    padding: 20px;
-    font-size: 1.7rem;
-    border-radius: 20px;
-    transition: opacity 0.3s ease, font-size 0.3s ease;
-}
-
-.about-bci-text:hover {
-    color: #000;
-    opacity: 1;
-}
-
-
-@media (max-width: 1200px) {
-    .about-bci-title {
-        font-size: 2.5rem;
-    }
-
-    .about-bci-text {
-        font-size: 1.1rem;
-    }
-}
-
-@media (max-width: 992px) {
-    .about-bci-title {
-        font-size: 2.2rem;
-    }
-
-    .about-bci-text {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .about-bci-title {
-        font-size: 1.8rem;
-        padding-top: 30px;
-    }
-
-    .about-bci-text {
-        font-size: 0.95rem;
-        padding: 15px;
-        width: 95%;
-    }
-}
-
-@media (max-width: 576px) {
-    .about-bci-title {
-        font-size: 1.5rem;
-    }
-
-    .about-bci-text {
-        font-size: 0.9rem;
-    }
-}  */
 
 /* General styling for the BCI component */
 .industry-main {
@@ -112,6 +25,7 @@
     margin: 0 auto;
     width:90%;
     font-weight: 500;
+    text-align: justify;
 }
 
 /* .about-bci-text p:hover{

@@ -10,11 +10,11 @@ const BCI = () =>{
         <div className="industry-main">
             <div className="about-bci">
                 <h1 className="about-bci-title">
-                    Understanding "BCI - Brain Computer Interface"
+                    Understanding "BCI - Brain Computer Interfaces"
                 </h1>
                 <div className="about-bci-text">
                     <p>
-                    Brain-Computer Interface (BCI) is a revolutionary technology that creates a direct pathway between the human brain and external devices. Imagine controlling a computer, wheelchair, or even a robotic arm using only your thoughts—this is exactly what BCI makes possible. It works by capturing brain signals through sensors, which translate neural activity into commands that machines can understand. Originally developed for medical purposes, like helping individuals with paralysis regain control, BCI is now making waves in gaming, virtual reality, and assistive tech. With advancements in AI and neuroimaging, BCI is evolving rapidly, allowing us to envision a future where mental commands could operate smart homes or enable seamless communication. As science fiction becomes reality, BCI holds the promise of bridging the gap between our minds and the digital world, unlocking endless possibilities for enhancing human abilities and transforming how we interact with technology.
+                    Brain-Computer Interfaces (BCI) are a revolutionary technology that creates a direct pathway between the human brain and external devices. Imagine controlling a computer, wheelchair, or even a robotic arm using only your thoughts—this is exactly what BCI makes possible. It works by capturing brain signals through sensors, which translate neural activity into commands that machines can understand. Originally developed for medical purposes, like helping individuals with paralysis regain control, BCI is now making waves in gaming, virtual reality, and assistive tech. With advancements in AI and neuroimaging, BCI is evolving rapidly, allowing us to envision a future where mental commands could operate smart homes or enable seamless communication. As science fiction becomes reality, BCI holds the promise of bridging the gap between our minds and the digital world, unlocking endless possibilities for enhancing human abilities and transforming how we interact with technology.
                     </p>
                 </div>
             </div>
@@ -27,11 +27,11 @@ const BCI = () =>{
                 <div className="bci-stages">
                     <GoGraph />
                     <h3>Stage 2 - Signal Processing</h3>
-                    <p>After recording, the signals are pre-treated to remove noise or reveal important information.</p>
+                    <p>After recording, the signals are processed to remove noise or reveal important information.</p>
                 </div>
                 <div className="bci-stages">
                     <MdDevicesOther />
-                    <h3>Stage 3 -  Feature Translation</h3>
+                    <h3>Stage 3 -  Feature Extraction</h3>
                     <p>The signal features are passed to a  algorithm that converts them into commands for an output device.</p>
                 </div>
                 <div className="bci-stages">

@@ -55,9 +55,9 @@ function App() {
               <div id="featured">
                 <Featured />
               </div>
-              <div id="contact">
+              {/* <div id="contact">
                 <ContactUs />
-              </div>
+              </div> */}
               {/* <div id="about">
                 <Partners />
               </div> */}
@@ -69,7 +69,7 @@ function App() {
 
         {/* <Route path="/about" element={<AboutUs />} /> */}
         {/* <Route path="/partners" element={<Partners />} /> */}
-        <Route path="/contact" element={<ContactUs />} />
+        {/* <Route path="/contact" element={<ContactUs />} /> */}
         <Route path="/team" element={<AboutAndTeam />} />
         <Route path="/learn" element={<Courses />} />
       </Routes>

@@ -1,77 +1,46 @@
-
-
-
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "./Courses.css";
-import baldLearn from "../assests/bald-learn.png"; // Importing background image
+import { faLeanpub } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCodeBranch } from '@fortawesome/free-solid-svg-icons';
+import { faBrain } from '@fortawesome/free-solid-svg-icons';
+import { faBolt } from '@fortawesome/free-solid-svg-icons';
+import Lottie from "lottie-react";
+import animation from './7Pv6j1Yppi (1).json';
 
 const Courses = () => {
-  const [showVideos, setShowVideos] = useState(false);
-
-
-  const videos = [
-        {
-          id: 1,
-          title: "Introduction to Signal processing in EEG",
-          url: "#",
-        },
-        {
-          id: 2,
-          title: "Importing Data",
-          url: "#",
-        },
-        {
-          id: 3,
-          title: "Regerencing and Resampling Teachniques in EEG Data Processing",
-          url: "#",
-        },
-        {
-          id: 4,
-          title: "Data Visualisation and Quality Enhancement",
-          url: "#",
-        },
-        {
-          id: 5,
-          title: "Fourier Analysis of EEG Data",
-          url: "#"
-        }
-      ];
-
+  const lottieRef = useRef();
   return (
-    <div className="courses-container">
-      {/* Background Image */}
-      <div className="background-image">
-        <img src={baldLearn} alt="Learn" />
-      </div>
+    <>
+    <div className="course-main">
+      <div className="course-hero">
+        <div className="course-h-left">
+          <p className="learn-text">
+              Unlock Your Brain’s Potential with <span>BaldMann.</span>
+          </p>
+          <p className="learn-tagline">
+              Dive into brain-tech courses that blend curiosity with control.
+          </p>
 
-      {/* Title */}
-      <h1 className="courses-title">Courses</h1>
-
-      {/* Course Section */}
-      <div className="course-section">
-        <h2 className="course-name">Signal Processing of EEG Data</h2>
-        <div className="course-card" onClick={() => setShowVideos(!showVideos)}>
-          <h3>Click to View Videos</h3>
+          <div className="learn-icons">
+            <FontAwesomeIcon icon={faLeanpub} fade className="icon-style"/>
+            <FontAwesomeIcon icon={faBrain} fade className="icon-style"/>
+            <FontAwesomeIcon icon={faCodeBranch} fade className="icon-style"/>
+            <FontAwesomeIcon icon={faBolt} fade className="icon-style"/>
+          </div>
+          <button className="explore">Courses Launching Soon!</button>
+          
+        </div>
+        <div className="course-h-right">
+          <Lottie animationData = {animation} 
+           lottieRef={lottieRef}
+           style={{ width: 700, height: 400 }}/>
+           {/* <button onClick={() => lottieRef.current.play()} className="play-button">Learn!</button> */}
+           {/* <button onClick={() => lottieRef.current.stop()} className="stop-button">I have learnt enough</button> */}
         </div>
       </div>
-
-      {/* Video Section */}
-      {showVideos && (
-        <div className="video-grid">
-          {videos.map((video, index) => (
-            <div key={index} className="video-card">
-              <video controls className="course-video">
-                <source src={video.src} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-              <p className="video-title">
-                <span className="video-number">Video {index + 1}:</span> {video.title}
-              </p>
-            </div>
-          ))}
-        </div>
-      )}
     </div>
+    </>
   );
 };
 

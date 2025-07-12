@@ -2,6 +2,8 @@ import React from 'react';
 import './Footer.css';
 import { FaLinkedin } from 'react-icons/fa';
 import { HashLink } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
+
 
 const Footer = () => {
     return (
@@ -20,9 +22,12 @@ const Footer = () => {
                     <h4>Quick Links</h4>
                     <ul>
                         <li>
-                            <HashLink smooth to="/#about">
+                            {/* <HashLink smooth to="/#about">
                                 About Us
-                            </HashLink>
+                            </HashLink> */}
+                            <Link to="/team">
+                                About Us
+                            </Link>
                         </li>
                         <li>
                             <HashLink smooth to="/#featured">
@@ -30,9 +35,9 @@ const Footer = () => {
                             </HashLink>
                         </li>
                         <li>
-                            <HashLink smooth to="/#contact">
-                                Contact Us
-                            </HashLink>
+                            <a href="https://forms.gle/i9QdXEVgzSx9GdW19" target="_blank" rel="noopener noreferrer">
+                                Join Us
+                            </a>
                         </li>
                     </ul>
                 </div>
