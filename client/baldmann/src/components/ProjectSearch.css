@@ -35,3 +35,15 @@
     padding-right: 32px;
   }
 }
+
+/* Laptop view: make the search bar narrower on typical laptop widths */
+@media (min-width: 1024px) and (max-width: 1600px) {
+  .responsive-search-bar {
+    /* Override inline max-width in JSX */
+    max-width: 420px !important;
+  }
+  .responsive-search-input {
+    /* Override inline min-width in JSX */
+    min-width: 260px !important;
+  }
+}

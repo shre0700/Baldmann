@@ -13,8 +13,10 @@ import MLmodel from './pages/MLmodel';
 import BaldSphere from './pages/BaldSphere';
 import BaldSphereApp from './pages/BaldSphereApp';
 import AboutAndTeam from './pages/AboutAndTeam';
+import SearchResults from './pages/SearchResults';
 import ScrollToTop from './components/ScrollToTop';
 import BaldSphereNavbar from './pages/BaldSphere/components/BaldSphereNavbar';
+import Services from './pages/Services';
 
 // Wrapper component to conditionally render navbar
 function AppContent() {
@@ -27,6 +29,7 @@ function AppContent() {
       <ScrollToTop/>
       {/* Only show BaldSphereNavbar for /baldsphere/app/*, show Navbar for others, and no navbar for /baldsphere or /baldsphere/auth */}
       {isBaldSphereApp ? <BaldSphereNavbar /> : (!isBaldSphereAuth && <Navbar />)}
+      <div id="app-content">
       <Routes>
         {/* Home route with main sections */}
         <Route 
@@ -72,12 +75,17 @@ function AppContent() {
         <Route path="/baldsphere/auth" element={<BaldSphere />} />
         <Route path="/baldsphere/app/*" element={<BaldSphereApp />} />
         
+        {/* Site-wide search results */}
+        <Route path="/search" element={<SearchResults />} />
+        
         {/* <Route path="/about" element={<AboutUs />} /> */}
         {/* <Route path="/partners" element={<Partners />} /> */}
         {/* <Route path="/contact" element={<ContactUs />} /> */}
         <Route path="/team" element={<AboutAndTeam />} />
         <Route path="/learn" element={<Courses />} />
+        <Route path="/services" element={<Services />} />
       </Routes>
+      </div>
 
       <Footer />
     </>

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Home",
+    "path": "/",
+    "excerpt": "Hero, BCI, Featured projects, ML model, About Us",
+    "keywords": ["home", "hero", "bci", "featured", "ml model", "about", "baldmann"]
+  },
+  {
+    "title": "Learn",
+    "path": "/learn",
+    "excerpt": "Courses and learning resources",
+    "keywords": ["learn", "courses", "education", "resources"]
+  },
+  {
+    "title": "Blogs",
+    "path": "/#featured",
+    "excerpt": "Featured blog posts",
+    "keywords": ["blog", "blogs", "articles", "news"]
+  },
+  {
+    "title": "Our Team",
+    "path": "/team",
+    "excerpt": "About the BaldMann team",
+    "keywords": ["team", "about", "members", "our team"]
+  }
+]

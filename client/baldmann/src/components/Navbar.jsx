@@ -75,6 +75,9 @@ const Navbar = () => {
                         <Link to="/learn" onClick={closeMobileMenu}>Learn</Link>
                     </li>
                     <li>
+                        <Link to="/services" onClick={closeMobileMenu}>Services</Link>
+                    </li>
+                    <li>
                         <Link to="https://baldgame-alpha.vercel.app/" onClick={closeMobileMenu}>Brain Game</Link>
                     </li>
                     <li>

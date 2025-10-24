@@ -12,3 +12,32 @@
     display: flex !important;
   }
 }
+
+/* laptop view: show a compact inline search bar so the BaldMann title remains visible */
+@media (min-width: 1024px) and (max-width: 1600px) {
+  /* Show desktop inline search (compact), hide the icon */
+  .navbar-search-desktop { 
+    display: flex !important; 
+    flex: 0 0 auto !important; 
+    max-width: 320px !important; 
+    justify-content: flex-start !important; 
+  }
+  .navbar-search-mobile { display: none !important; }
+
+  /* Tighten the search bar and remove extra vertical space inside navbar */
+  .navbar-search-desktop .responsive-search-bar {
+    max-width: 320px !important;
+    margin: 0 !important;
+  }
+  .navbar-search-desktop .responsive-search-input {
+    min-width: 200px !important;
+    font-size: 16px !important;
+    padding: 10px 36px 10px 14px !important;
+  }
+
+  /* Reduce the search icon size */
+  .navbar-search-desktop svg {
+    width: 20px !important;
+    height: 20px !important;
+  }
+}

@@ -244,9 +244,33 @@
       @media (max-width: 1110px) { 
         .menu-link { display: none; } 
         .hamburger-menu { display: block; } 
-        .mobile-menu-link { display: flex; flex-direction: column; } } 
+        .mobile-menu-link { display: flex; flex-direction: column; } 
+      } 
         
-        @media (max-width: 520px) { 
-          .main-nav { width: 95%; padding: 0 1rem; } 
-          .company-name { font-size: 1.3rem; } 
-          .mobile-menu-link ul { gap: 0.8rem; padding: 0 1rem; } }
+      @media (max-width: 520px) { 
+        .main-nav { width: 95%; padding: 0 1rem; } 
+        .company-name { font-size: 1.3rem; } 
+        .mobile-menu-link ul { gap: 0.8rem; padding: 0 1rem; } 
+      } 
+
+/* laptop view: tighten spacing so the logo/title stay visible */
+@media (min-width: 1024px) and (max-width: 1600px) {
+  .main-nav {
+    height: 4rem;
+    padding: 0 1rem;
+  }
+  .logo img {
+    height: 36px;
+    width: 36px;
+  }
+  .company-name {
+    font-size: 1.35rem;
+  }
+  .menu-link ul {
+    gap: 1rem;
+  }
+  .menu-link ul li a {
+    font-size: 1rem;
+    padding: 6px 10px;
+  }
+}

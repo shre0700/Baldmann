@@ -43,3 +43,4 @@ test/
 # Temporary files (optional)
 tmp/
 
+.vercel

@@ -31,7 +31,8 @@ export default function BaldSphereAuth({ onAuthSuccess }) {
     setSuccess('');
 
     try {
-      const response = await fetch('https://baldmann-j659.vercel.app/api/login', {
+      const API_BASE = process.env.REACT_APP_API_BASE || '';
+      const response = await fetch(`${API_BASE}/api/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email: loginData.email, password: loginData.password })
@@ -72,7 +73,8 @@ export default function BaldSphereAuth({ onAuthSuccess }) {
       return;
     }
     try {
-      const response = await fetch('https://baldmann-j659.vercel.app/api/signup', {
+      const API_BASE = process.env.REACT_APP_API_BASE || '';
+      const response = await fetch(`${API_BASE}/api/signup`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email: signupData.email, password: signupData.password })
@@ -95,7 +97,8 @@ export default function BaldSphereAuth({ onAuthSuccess }) {
   const handleForgotPassword = async (e) => {
     e.preventDefault();
     setForgotStatus('');
-    const response = await fetch('https://baldmann-j659.vercel.app/api/forgotPassword', {
+    const API_BASE = process.env.REACT_APP_API_BASE || '';
+    const response = await fetch(`${API_BASE}/api/forgotPassword`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email: forgotEmail })
