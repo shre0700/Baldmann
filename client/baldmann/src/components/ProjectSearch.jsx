@@ -27,27 +27,54 @@ const ProjectSearch = ({ onResult }) => {
     if (!query.trim()) return;
     setSearching(true);
     const q = query.trim();
-    // update URL with ?q= for deep-linking and re-highlighting on route change
-    navigate({ pathname: location.pathname, search: `?q=${encodeURIComponent(q)}` }, { replace: false });
-    // Build a site-wide route list from searchIndex.json to allow cross-page next/prev
+    
+    // First, try to find the text on the current page
+    const currentPageMatches = document.body.innerText.toLowerCase().includes(q.toLowerCase());
+    
+    if (currentPageMatches) {
+      // Text exists on current page, just highlight it
+      highlightAll(q, false);
+      setSearching(false);
+      return;
+    }
+    
+    // Text not on current page, check search index for other pages
     try {
       const res = await fetch('/searchIndex.json');
       if (res.ok) {
         const idx = await res.json();
-        // Use full site order from index; we'll still highlight and you can traverse with Next
-        let list = Array.isArray(idx) ? idx.map(e => e.path) : [];
-        // ensure current page is included and comes first
-        const cur = location.pathname + location.hash;
-        if (!list.includes(cur)) list = [cur, ...list];
-        // de-duplicate while preserving order
-        const seen = new Set();
-        list = list.filter(p => (seen.has(p) ? false : (seen.add(p), true)));
-        setRouteList(list);
-        sessionStorage.setItem('bm_search_routes', JSON.stringify({ q, list }));
+        // Find pages that might contain this text
+        const matchingPages = idx.filter(entry => {
+          const searchText = [
+            entry.title,
+            entry.excerpt,
+            entry.content || '', // Include full content if available
+            ...(entry.keywords || [])
+          ].join(' ').toLowerCase();
+          return searchText.includes(q.toLowerCase());
+        });
+        
+        if (matchingPages.length === 1) {
+          // Single match - navigate directly with query parameter
+          const page = matchingPages[0];
+          if (page.path.startsWith('http')) {
+            window.open(page.path, '_blank');
+          } else {
+            navigate(`${page.path}?q=${encodeURIComponent(q)}`);
+          }
+        } else {
+          // Multiple or no matches - show search results page
+          navigate(`/search?q=${encodeURIComponent(q)}`);
+        }
+      } else {
+        // Fallback to search results page
+        navigate(`/search?q=${encodeURIComponent(q)}`);
       }
-    } catch {}
-    // Highlight on current page (fresh search starts from first match)
-    highlightAll(q, false);
+    } catch (err) {
+      // Error loading index, fallback to search results page
+      navigate(`/search?q=${encodeURIComponent(q)}`);
+    }
+    
     setSearching(false);
   };
 
@@ -301,7 +328,7 @@ const ProjectSearch = ({ onResult }) => {
       <input
         ref={inputRef}
         type="text"
-        placeholder="Search the page..."
+        placeholder="Search pages, team, blogs..."
         value={query}
         onChange={handleInput}
         className="responsive-search-input"
