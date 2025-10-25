@@ -12,7 +12,8 @@ const app = express();
 // Middleware
 app.use(cors(
   {
-    origin:'https://baldmann-lv4v-shreya-agarwals-projects.vercel.app',
+    origin: ['https://baldmann-lv4v-shreya-agarwals-projects.vercel.app', 'http://localhost:3000', process.env.FRONTEND_URL],
+    credentials: true
   }
 ));
 app.use(bodyParser.json());
@@ -50,6 +51,13 @@ app.post('/api/contact', async (req, res) => {
 });
 
 
-app.listen(5000, () => {
-  console.log('Server running on http://localhost:5000');
-});
+// For local development
+if (process.env.NODE_ENV !== 'production') {
+  const PORT = process.env.PORT || 5000;
+  app.listen(PORT, () => {
+    console.log(`Server running on http://localhost:${PORT}`);
+  });
+}
+
+// Export for Vercel serverless
+export default app;
